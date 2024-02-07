@@ -1,0 +1,15 @@
+C:\Users\jfoes\Documents\CMPS360\Module4\bin\Debug\net8.0\Module4.exe
+C:\Users\jfoes\Documents\CMPS360\Module4\bin\Debug\net8.0\Module4.deps.json
+C:\Users\jfoes\Documents\CMPS360\Module4\bin\Debug\net8.0\Module4.runtimeconfig.json
+C:\Users\jfoes\Documents\CMPS360\Module4\bin\Debug\net8.0\Module4.dll
+C:\Users\jfoes\Documents\CMPS360\Module4\bin\Debug\net8.0\Module4.pdb
+C:\Users\jfoes\Documents\CMPS360\Module4\obj\Debug\net8.0\Module4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jfoes\Documents\CMPS360\Module4\obj\Debug\net8.0\Module4.AssemblyInfoInputs.cache
+C:\Users\jfoes\Documents\CMPS360\Module4\obj\Debug\net8.0\Module4.AssemblyInfo.cs
+C:\Users\jfoes\Documents\CMPS360\Module4\obj\Debug\net8.0\Module4.csproj.CoreCompileInputs.cache
+C:\Users\jfoes\Documents\CMPS360\Module4\obj\Debug\net8.0\Module4.sourcelink.json
+C:\Users\jfoes\Documents\CMPS360\Module4\obj\Debug\net8.0\Module4.dll
+C:\Users\jfoes\Documents\CMPS360\Module4\obj\Debug\net8.0\refint\Module4.dll
+C:\Users\jfoes\Documents\CMPS360\Module4\obj\Debug\net8.0\Module4.pdb
+C:\Users\jfoes\Documents\CMPS360\Module4\obj\Debug\net8.0\Module4.genruntimeconfig.cache
+C:\Users\jfoes\Documents\CMPS360\Module4\obj\Debug\net8.0\ref\Module4.dll
