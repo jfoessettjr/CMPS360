@@ -1,51 +1,62 @@
-﻿using System.Diagnostics;
-using System.Numerics;
+﻿using System;
 
-namespace Module4;
-
-class Program
+namespace ThreeLetterWordGame
 {
-    static void Main(string[] args)
+    class Program
     {
-       /* int number = 23;
+        static void Main(string[] args)
+        {
+            string[] words = { "cat", "dog", "hat", "pen", "cup", "car", "box", "map" };
+            Random random = new Random();
+            string wordToGuess = words[random.Next(0, words.Length)];
 
-       // if(number == 23){
-           Console.WriteLine("The number of Jordan 23"); 
-       // } else {
-            Console.WriteLine("The number is incorrect");
-        } */
+            Console.WriteLine("Welcome to the Three Letter Word Game!");
+            Console.WriteLine("Try to guess the 3-letter word.");
+            Console.WriteLine("These are the words you can guess from: cat, dog, hat, pen, cup, car, box.");
 
-       Console.WriteLine("Welcome to the House of Pain");
+            bool wordGuessed = false;
+            int attempts = 0;
 
-       Random random = new Random();
-       int targetNumber = random.Next(1,10);
-
-        int attempts = 0;
-        bool hasGuessedCorrectly = false;
-
-        Console.WriteLine("Try to guess the number between 1 and 10");
-
-        while(!hasGuessedCorrectly){
-            Console.Write("Input your guess: ");
-            string userInput = Console.ReadLine();
-
-            if(int.TryParse(userInput, out int UserGuess))
+            while (!wordGuessed)
             {
-               attempts++;
-               if(UserGuess == targetNumber){
-                    hasGuessedCorrectly = true;
-                    Console.WriteLine("Congrats you guessed it");
-               } else {
-                    string hint = (UserGuess < targetNumber) ? "Too low, try again!" : "Too high, try again";
-                    Console.WriteLine(hint);
-               }
-            }
-            else
-            {
-                Console.WriteLine("Invalid Input, Please enter a valid number");
+                Console.Write("Enter your guess: ");
+                string guess = Console.ReadLine().ToLower();
+
+                if (guess.Length != 3)
+                {
+                    Console.WriteLine("Please enter a 3-letter word.");
+                    continue;
+                }
+
+                attempts++;
+
+                if (guess == wordToGuess)
+                {
+                    Console.WriteLine($"Congratulations! You guessed the word '{wordToGuess}' in {attempts} attempts.");
+                    wordGuessed = true;
+                }
+                else
+                {
+                    Console.WriteLine("Incorrect guess. Try again.");
+
+                    // Provide some hints
+                    for (int i = 0; i < 3; i++)
+                    {
+                        if (guess[i] == wordToGuess[i])
+                        {
+                            Console.WriteLine($"Letter '{guess[i]}' is in the correct position.");
+                        }
+                        else if (wordToGuess.Contains(guess[i]))
+                        {
+                            Console.WriteLine($"Letter '{guess[i]}' is in the word but in the wrong position.");
+                        }
+                        else
+                        {
+                            Console.WriteLine($"Letter '{guess[i]}' is not in the word.");
+                        }
+                    }
+                }
             }
         }
-            Console.WriteLine("Thank you for playing House of Pain");
     }
-
 }
