@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "xCyUEpp19/a9XRdOLIkI6cLhqKLVcElzK0ewr87/bhTRxqZvgdljS5EO9kGp7Mh5QhS/LWVjOwInf0gNXLAaug==",
+  "dgSpecHash": "oSKBSrQJaKzJuAECBVTFkYXJ5ol1h0ymtt8XSWtt/cxU70kLpgwg69Oqw43uwDRbl9qt8EN8+15scCFAOQKMnA==",
   "success": true,
   "projectFilePath": "C:\\Users\\jfoes\\Documents\\CMPS360\\Module5\\Module5.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\jfoes\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
