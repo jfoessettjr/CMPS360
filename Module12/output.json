@@ -1,0 +1,11 @@
+[
+{"name": "Sidney Crosby", "number": "87", "position": "Center"},
+{"name": "Evegeni Malkin", "number": "71", "position": "Center"},
+{"name": "Michael Bunting", "number": "8", "position": "Left Wing"},
+{"name": "Brian Rust", "number": "17", "position": "Right Wing"},
+{"name": "Erik Karlsson", "number": "65", "position": "Defenseman"},
+{"name": "Kris Letang", "number": "58", "position": "Defenseman"},
+{"name": "Ryan Graves", "number": "27", "position": "Defenseman"},
+{"name": "Tristan Jarry", "number": "35", "position": "Goaltender"},
+{"name": "Alex Nedeljkovic", "number": "39", "position": "Goaltender"}
+]
