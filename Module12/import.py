@@ -2,7 +2,7 @@ import psycopg2
 import json
 
 # Connect to database
-conn = psycopg2.connect("dbname=penguins user=postgres password=postgres")
+conn = psycopg2.connect("dbname=penguins user=postgres password=2112")
 
 # Open the connection
 current = conn.cursor()
